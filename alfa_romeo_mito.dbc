@@ -146,7 +146,7 @@ BO_ 152576001 NEW_MSG_12: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|3@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 6|1@0+ (1,0) [0|3] "" XXX
 
-BO_ 135307264 brake?: 8 XXX
+BO_ 135307264 Cruise?: 8 XXX
  SG_ NEW_SIGNAL_1 : 18|2@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_3 : 0|1@0+ (1,0) [0|1] "" XXX
  SG_ Brakepedal : 22|5@0+ (1,0) [0|7] "" XXX
