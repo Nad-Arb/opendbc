@@ -150,6 +150,10 @@ BO_ 135307264 brake?: 8 XXX
  SG_ NEW_SIGNAL_1 : 18|2@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_3 : 0|1@0+ (1,0) [0|1] "" XXX
  SG_ Brakepedal : 22|5@0+ (1,0) [0|7] "" XXX
+ SG_ Cruise lever opposite : 14|3@0+ (1,0) [0|7] "" XXX
+ SG_ Crusie lever : 6|3@0+ (1,0) [0|7] "" XXX
+ SG_ Cruise on : 7|1@0+ (1,0) [0|3] "" XXX
+ SG_ Curise on opposite : 15|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 1089542 Brake_pedal: 8 XXX
  SG_ Brake Pedal : 16|8@1+ (1,0) [0|255] "" XXX
@@ -200,10 +204,14 @@ BO_ 169385985 ECU?: 8 XXX
  SG_ NEW_SIGNAL_1 : 20|1@1+ (1,0) [0|127] "" XXX
  SG_ NEW_SIGNAL_2 : 16|1@1+ (1,0) [0|3] "" XXX
  SG_ Engine off : 15|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_6 : 8|2@1+ (1,0) [0|3] "" XXX
 
 BO_ 169648129 NEW_MSG_23: 8 XXX
- SG_ NEW_SIGNAL_1 : 16|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 51|4@1+ (1,0) [0|15] "" XXX
+ SG_ boost? : 16|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 135831552 NEW_MSG_13: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|16@1+ (1,0) [0|255] "" XXX
 
 
 
