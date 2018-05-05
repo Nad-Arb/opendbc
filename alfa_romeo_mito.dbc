@@ -155,11 +155,9 @@ BO_ 1089542 Brake_pedal: 8 XXX
  SG_ Brake Pedal : 16|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 35168262 NEW_MSG_15: 8 XXX
- SG_ NEW_SIGNAL_2 : 0|2@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_2 : 0|8@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_3 : 55|16@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_4 : 16|2@1+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_5 : 32|2@1+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_6 : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_7 : 56|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_8 : 48|2@1+ (1,0) [0|3] "" XXX
  SG_ speed : 39|16@0+ (0.068,0) [0|65535] "" XXX
