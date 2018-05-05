@@ -197,6 +197,9 @@ BO_ 169385985 ECU?: 8 XXX
  SG_ NEW_SIGNAL_5 : 30|3@0+ (1,0) [0|7] "" XXX
  SG_ rpm : 40|16@1+ (0.125,0) [0|255] "" XXX
  SG_ Engine Torque? : 32|5@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 20|1@1+ (1,0) [0|127] "" XXX
+ SG_ NEW_SIGNAL_2 : 16|1@1+ (1,0) [0|3] "" XXX
+ SG_ Engine off : 15|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 169648129 NEW_MSG_23: 8 XXX
  SG_ NEW_SIGNAL_1 : 16|8@1+ (1,0) [0|255] "" XXX
