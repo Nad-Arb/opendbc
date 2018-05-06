@@ -33,7 +33,7 @@ NS_ :
 
 BS_:
 
-BU_: XXX 0 1 
+BU_: XXX 0 1
 
 
 BO_ 258 STEERING: 8 XXX
@@ -147,10 +147,8 @@ BO_ 152576001 NEW_MSG_12: 8 XXX
  SG_ NEW_SIGNAL_2 : 6|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_3 : 0|1@0+ (1,0) [0|1] "" XXX
  SG_ Brakepedal : 22|5@0+ (1,0) [0|7] "" XXX
- SG_ C : NaN|NaN@0+ (NaN,7) [NaN|1] "," 0
 
 BO_ 1089542 Brake_pedal: 8 XXX
- SG_ B : NaN|NaN@0+ (1,6) [NaN|8] "," 1
 
 BO_ 35168262 Speed: 8 XXX
  SG_ NEW_SIGNAL_2 : 0|8@1+ (1,0) [0|3] "" XXX
@@ -173,7 +171,6 @@ BO_ 102277121 NEW_MSG_17: 8 XXX
 
 BO_ 3186690 Steering: 8 XXX
  SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
- SG_ S : NaN|NaN@0+ (NaN,NaN) [NaN|3] "9" ,
 
 BO_ 103325697 NEW_MSG_19: 8 XXX
  SG_ NEW_SIGNAL_1 : 24|16@1+ (1,0) [0|127] "" XXX
@@ -183,7 +180,6 @@ BO_ 103325697 NEW_MSG_19: 8 XXX
 BO_ 169951234 NEW_MSG_20: 8 XXX
  SG_ NEW_SIGNAL_2 : 63|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 23|1@0+ (1,0) [0|3] "" XXX
- SG_ S : NaN|NaN@0+ (NaN,NaN) [NaN|7] "," 1
 
 BO_ 135307286 NEW_MSG_21: 8 XXX
  SG_ NEW_SIGNAL_1 : 20|1@1+ (1,0) [0|127] "" XXX
@@ -192,7 +188,6 @@ BO_ 135307286 NEW_MSG_21: 8 XXX
  SG_ NEW_SIGNAL_5 : 30|3@0+ (1,0) [0|7] "" XXX
  SG_ rpm : 40|16@1+ (0.125,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 16|1@1+ (1,0) [0|3] "" XXX
- SG_ E : NaN|NaN@0+ (NaN,1) [5|NaN] "1" ,
  SG_ NEW_SIGNAL_6 : 8|2@1+ (1,0) [0|3] "" XXX
 
 BO_ 169648129 NEW_MSG_23: 8 XXX
@@ -206,6 +201,7 @@ BO_ 135307264 cruise: 8 XXX
  SG_ cruise_on2 : 15|1@0+ (1,0) [0|3] "" XXX
  SG_ cruise_on : 7|1@0+ (1,0) [0|31] "" XXX
  SG_ cruise_stalk : 6|3@0+ (1,0) [0|7] "" XXX
+ SG_ brake : 23|8@0+ (1,0) [0|255] "" XXX
 
 
 
