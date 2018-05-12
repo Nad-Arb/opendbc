@@ -113,13 +113,13 @@ BO_ 3710987 DSG: 8 XXX
  SG_ Gear : 16|3@1+ (1,0) [0|7] "" XXX
  SG_ shifter : 9|3@1+ (1,0) [0|7] "" XXX
 
-BO_ 33595403 NEW_MSG_6: 8 XXX
+BO_ 33595403 wheelspeeds?: 8 XXX
  SG_ NEW_SIGNAL_1 : 8|7@1+ (1,0) [0|127] "" XXX
  SG_ NEW_SIGNAL_2 : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 16|3@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_4 : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_5 : 32|3@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_6 : 40|8@1+ (1,0) [0|31] "" XXX
+ SG_ speed2 : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ speed3 : 40|8@1+ (1,0) [0|31] "" XXX
 
 BO_ 34643974 NEW_MSG_7: 8 XXX
  SG_ NEW_SIGNAL_1 : 43|5@1+ (1,0) [0|31] "" XXX
@@ -167,11 +167,11 @@ BO_ 35692550 NEW_MSG_16: 8 XXX
  SG_ NEW_SIGNAL_2 : 27|3@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_3 : 56|8@1+ (1,0) [0|255] "" XXX
 
-BO_ 102277121 NEW_MSG_17: 8 XXX
- SG_ NEW_SIGNAL_1 : 8|16@1+ (1,0) [0|255] "" XXX
+BO_ 102277121 ECU: 8 XXX
  SG_ NEW_SIGNAL_3 : 31|8@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_4 : 55|16@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_5 : 32|16@1+ (1,0) [0|255] "" XXX
+ SG_ engine_torque? : 32|16@1+ (1,0) [0|255] "" XXX
+ SG_ rpm : 8|16@1+ (1,0) [0|255] "" XXX
+ SG_ gas_pedal_position : 63|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 3186690 Steering: 8 XXX
  SG_ hand_torque : 47|16@0- (1,7.877) [0|65535] "" XXX
@@ -227,6 +227,7 @@ CM_ SG_ 792 HIGH_BEAM_FLASH "use this for genericToggle";
 CM_ SG_ 264 ACCEL_PEDAL "not in ACC so seems to be actual pedal. Use for gasPressed";
 CM_ SG_ 3710987 Gear "7 = reverse p = 0 n = 0";
 CM_ SG_ 3710987 shifter "p=6, r=4 n=3 d=5";
+CM_ SG_ 102277121 gas_pedal_position "255 = max";
 CM_ SG_ 103325697 gas_pedal_pressed "Boolean 1 = pressed";
 VAL_ 746 PRNDL 4 "Drive" 3 "Neutral" 2 "Reverse" 1 "Park" ;
 VAL_ 792 TURN_SIGNALS 2 "Right" 1 "Left" ;
