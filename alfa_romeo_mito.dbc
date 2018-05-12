@@ -173,7 +173,9 @@ BO_ 102277121 NEW_MSG_17: 8 XXX
  SG_ NEW_SIGNAL_5 : 32|16@1+ (1,0) [0|255] "" XXX
 
 BO_ 3186690 Steering: 8 XXX
- SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
+ SG_ hand_torque : 47|16@0- (1,7.877) [0|65535] "" XXX
+ SG_ steering_torque : 56|8@1+ (1,-140) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 31|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 103325697 Gaspedal: 8 XXX
  SG_ NEW_SIGNAL_2 : 0|8@1+ (1,0) [0|255] "" XXX
@@ -199,7 +201,7 @@ BO_ 169648129 NEW_MSG_23: 8 XXX
 BO_ 135831552 NEW_MSG_13: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|16@1+ (1,0) [0|255] "" XXX
 
-BO_ 135307264 cruise: 8 XXX
+BO_ 135307264 cruise: 4 XXX
  SG_ cruise_stalk2 : 14|3@0+ (1,0) [0|7] "" XXX
  SG_ cruise_on2 : 15|1@0+ (1,0) [0|3] "" XXX
  SG_ cruise_on : 7|1@0+ (1,0) [0|31] "" XXX
