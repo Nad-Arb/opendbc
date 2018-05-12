@@ -200,13 +200,13 @@ BO_ 135831552 Stalks: 8 XXX
  SG_ high_beam : 22|2@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_1 : 29|1@0+ (1,0) [0|3] "" XXX
 
-BO_ 135307264 cruise: 4 XXX
+BO_ 135307264 SCM_BUTTONS: 4 XXX
  SG_ cruise_stalk2 : 14|3@0+ (1,0) [0|7] "" XXX
  SG_ cruise_on2 : 15|1@0+ (1,0) [0|3] "" XXX
- SG_ cruise_on : 7|1@0+ (1,0) [0|31] "" XXX
- SG_ cruise_stalk : 6|3@0+ (1,0) [0|7] "" XXX
  SG_ brake : 23|4@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 18|2@1+ (1,0) [0|15] "" XXX
+ SG_ MAIN_ON : 7|1@0+ (1,0) [0|31] "" XXX
+ SG_ SCM_BUTTONS : 6|3@0+ (1,0) [0|7] "" XXX
 
 BO_ 169385985 GEARBOX3: 8 XXX
  SG_ NEW_SIGNAL_1 : 40|8@1+ (1,0) [0|255] "" XXX
