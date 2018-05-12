@@ -215,8 +215,12 @@ BO_ 169385985 something_gearbox: 8 XXX
  SG_ cruise_on : 9|1@1+ (1,0) [0|7] "" XXX
  SG_ reverse : 58|1@1+ (1,0) [0|3] "" XXX
 
-BO_ 203202560 NEW_MSG_5: 8 XXX
+BO_ 203202560 body: 8 XXX
  SG_ door_closed : 18|1@1+ (1,0) [0|3] "" XXX
+
+BO_ 169385984 ac: 8 XXX
+ SG_ ac_button : 10|1@1+ (1,0) [0|3] "" XXX
+ SG_ defrost : 52|1@0+ (1,0) [0|3] "" XXX
 
 
 
