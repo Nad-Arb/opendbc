@@ -180,7 +180,7 @@ BO_ 3186690 Steering: 8 XXX
  SG_ steering_torque : 56|8@1+ (1,-140) [0|255] "" XXX
  SG_ steering_angle : 31|16@0+ (1,-37.320) [0|65535] "" XXX
 
-BO_ 103325697 Gaspedal: 8 XXX
+BO_ 103325697 Gaspedal komisch: 8 XXX
  SG_ NEW_SIGNAL_2 : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ gas_pedal_pressed : 44|1@0+ (1,0) [0|3] "" XXX
  SG_ gas_pedal_input : 24|16@1+ (1,-3.5) [0|127] "" XXX
@@ -190,13 +190,13 @@ BO_ 169951234 NEW_MSG_20: 8 XXX
  SG_ NEW_SIGNAL_3 : 23|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 135307286 NEW_MSG_21: 8 XXX
- SG_ NEW_SIGNAL_1 : 20|1@1+ (1,0) [0|127] "" XXX
  SG_ NEW_SIGNAL_3 : 24|2@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_4 : 26|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_5 : 30|3@0+ (1,0) [0|7] "" XXX
  SG_ rpm : 40|16@1+ (0.125,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_2 : 16|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_2 : 16|8@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_6 : 8|2@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 10|3@1+ (1,0) [0|3] "" XXX
 
 BO_ 169648129 NEW_MSG_23: 8 XXX
  SG_ NEW_SIGNAL_2 : 51|4@1+ (1,0) [0|15] "" XXX
