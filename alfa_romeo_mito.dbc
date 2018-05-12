@@ -123,6 +123,7 @@ BO_ 33595403 wheelspeeds?: 8 XXX
 
 BO_ 34643974 NEW_MSG_7: 8 XXX
  SG_ NEW_SIGNAL_1 : 43|5@1+ (1,0) [0|31] "" XXX
+ SG_ Ignition_on : 55|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 417001744 NEW_MSG_8: 8 XXX
  SG_ NEW_SIGNAL_1 : 24|6@1+ (1,0) [0|31] "" XXX
@@ -211,6 +212,11 @@ BO_ 135307264 cruise: 4 XXX
  SG_ cruise_stalk : 6|3@0+ (1,0) [0|7] "" XXX
  SG_ brake : 23|4@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 18|2@1+ (1,0) [0|15] "" XXX
+
+BO_ 169385985 NEW_MSG_5: 8 XXX
+ SG_ NEW_SIGNAL_1 : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 32|4@1+ (1,0) [0|15] "" XXX
+ SG_ cruise_on : 9|1@1+ (1,0) [0|7] "" XXX
 
 
 
