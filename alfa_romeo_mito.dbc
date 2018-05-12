@@ -102,7 +102,7 @@ BO_ 3186689 NEW_MSG_4: 8 XXX
  SG_ NEW_SIGNAL_4 : 16|3@1- (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_6 : 48|3@1+ (1,0) [0|7] "" XXX
 
-BO_ 3710987 NEW_MSG_5: 8 XXX
+BO_ 3710987 DSG: 8 XXX
  SG_ NEW_SIGNAL_1 : 31|4@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_3 : 23|4@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_4 : 34|3@1+ (1,0) [0|3] "" XXX
@@ -111,6 +111,7 @@ BO_ 3710987 NEW_MSG_5: 8 XXX
  SG_ NEW_SIGNAL_7 : 59|4@1+ (1,0) [0|31] "" XXX
  SG_ clutch? : 46|7@0+ (1,0) [0|127] "" XXX
  SG_ Gear : 16|3@1+ (1,0) [0|7] "" XXX
+ SG_ shifter : 9|3@1+ (1,0) [0|7] "" XXX
 
 BO_ 33595403 NEW_MSG_6: 8 XXX
  SG_ NEW_SIGNAL_1 : 8|7@1+ (1,0) [0|127] "" XXX
@@ -225,6 +226,7 @@ CM_ SG_ 792 TURN_SIGNALS "1=Left, 2=Right";
 CM_ SG_ 792 HIGH_BEAM_FLASH "use this for genericToggle";
 CM_ SG_ 264 ACCEL_PEDAL "not in ACC so seems to be actual pedal. Use for gasPressed";
 CM_ SG_ 3710987 Gear "7 = reverse p = 0 n = 0";
+CM_ SG_ 3710987 shifter "p=6, r=4 n=3 d=5";
 CM_ SG_ 103325697 gas_pedal_pressed "Boolean 1 = pressed";
 VAL_ 746 PRNDL 4 "Drive" 3 "Neutral" 2 "Reverse" 1 "Park" ;
 VAL_ 792 TURN_SIGNALS 2 "Right" 1 "Left" ;
