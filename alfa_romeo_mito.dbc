@@ -104,16 +104,15 @@ BO_ 3186689 NEW_MSG_4: 8 XXX
 
 BO_ 3710987 DSG: 8 XXX
  SG_ NEW_SIGNAL_1 : 8|7@1+ (1,0) [0|127] "" XXX
- SG_ NEW_SIGNAL_3 : 16|3@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_4 : 34|3@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_6 : 48|8@1- (-1,127) [0|63] "" XXX
  SG_ NEW_SIGNAL_7 : 59|4@1+ (1,0) [0|31] "" XXX
- SG_ Gear : 16|3@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_5 : 32|3@1+ (1,0) [0|7] "" XXX
- SG_ speed2 : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ speed3 : 40|8@1+ (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_3 : 16|3@1+ (1,0) [0|7] "" XXX
  SG_ GEAR_SHIFTER : 9|3@1+ (1,0) [0|7] "" XXX
+ SG_ speed2 : 24|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 34643974 NEW_MSG_7: 8 XXX
  SG_ NEW_SIGNAL_1 : 43|5@1+ (1,0) [0|31] "" XXX
@@ -173,9 +172,9 @@ BO_ 3186690 STEERING: 8 XXX
  SG_ NEW_SIGNAL_2 : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ gas_pedal_pressed : 44|1@0+ (1,0) [0|3] "" XXX
  SG_ gas_pedal_input : 24|16@1+ (1,-3.5) [0|127] "" XXX
- SG_ STEERING_ANGLE : 31|16@0+ (1,-37316.32) [0|65535] "" XXX
  SG_ STEER_ANGLE_RATE : 56|8@1+ (1,-140) [0|255] "" XXX
  SG_ STEER_TORQUE_SENSOR : 55|8@0- (1,7.877) [0|65535] "" XXX
+ SG_ STEER_ANGLE : 31|16@0+ (1,-37316.32) [0|65535] "" XXX
 
 BO_ 169951234 NEW_MSG_20: 8 XXX
  SG_ NEW_SIGNAL_2 : 63|8@0+ (1,0) [0|255] "" XXX
@@ -203,10 +202,10 @@ BO_ 135831552 Stalks: 8 XXX
 BO_ 135307264 SCM_BUTTONS: 4 XXX
  SG_ cruise_stalk2 : 14|3@0+ (1,0) [0|7] "" XXX
  SG_ cruise_on2 : 15|1@0+ (1,0) [0|3] "" XXX
- SG_ brake : 23|4@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 18|2@1+ (1,0) [0|15] "" XXX
  SG_ MAIN_ON : 7|1@0+ (1,0) [0|31] "" XXX
  SG_ CRUISE_BUTTONS : 6|3@0+ (1,0) [0|7] "" XXX
+ SG_ BRAKE : 23|4@0+ (1,0) [0|255] "" XXX
 
 BO_ 169385985 GEARBOX3: 8 XXX
  SG_ NEW_SIGNAL_1 : 40|8@1+ (1,0) [0|255] "" XXX
@@ -216,7 +215,7 @@ BO_ 169385985 GEARBOX3: 8 XXX
  SG_ reverse : 58|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 203202560 BODY: 8 XXX
- SG_ door_closed : 18|1@1+ (1,0) [0|3] "" XXX
+ SG_ DOOR_CLOSED : 18|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 169385984 ac: 8 XXX
  SG_ ac_button : 10|1@1+ (1,0) [0|3] "" XXX
@@ -237,9 +236,8 @@ CM_ SG_ 320 BRAKE_PRESSED "Value is 5 when brake is pressed";
 CM_ SG_ 792 TURN_SIGNALS "1=Left, 2=Right";
 CM_ SG_ 792 HIGH_BEAM_FLASH "use this for genericToggle";
 CM_ SG_ 264 ACCEL_PEDAL "not in ACC so seems to be actual pedal. Use for gasPressed";
-CM_ SG_ 3710987 Gear "7 = reverse p = 0 n = 0";
 CM_ SG_ 3710987 GEAR_SHIFTER "p=6, r=4 n=3 d=5";
 CM_ SG_ 102277121 gas_pedal_position "255 = max";
-CM_ SG_ 203202560 door_closed "1 = closed";
+CM_ SG_ 203202560 DOOR_CLOSED "1 = closed";
 VAL_ 746 PRNDL 4 "Drive" 3 "Neutral" 2 "Reverse" 1 "Park" ;
 VAL_ 792 TURN_SIGNALS 2 "Right" 1 "Left" ;
