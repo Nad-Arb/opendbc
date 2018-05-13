@@ -166,7 +166,7 @@ BO_ 102277121 ECU: 8 XXX
  SG_ rpm : 8|16@1+ (1,0) [0|255] "" XXX
  SG_ gas_pedal_position : 63|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 47|16@0+ (1,0) [0|65535] "" XXX
- SG_ pedal_tip : 0|1@1+ (1,0) [0|3] "" XXX
+ SG_ PEDAL_GAS : 0|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 3186690 STEERING: 8 XXX
  SG_ NEW_SIGNAL_2 : 0|8@1+ (1,0) [0|255] "" XXX
