@@ -164,9 +164,9 @@ BO_ 35692550 NEW_MSG_16: 8 XXX
 BO_ 102277121 ECU: 8 XXX
  SG_ NEW_SIGNAL_3 : 31|8@0+ (1,0) [0|255] "" XXX
  SG_ rpm : 8|16@1+ (1,0) [0|255] "" XXX
- SG_ gas_pedal_position : 63|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 47|16@0+ (1,0) [0|65535] "" XXX
  SG_ PEDAL_GAS : 0|1@1+ (1,0) [0|3] "" XXX
+ SG_ CAR_GAS : 63|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 3186690 STEERING: 8 XXX
  SG_ NEW_SIGNAL_2 : 0|8@1+ (1,0) [0|255] "" XXX
@@ -237,7 +237,7 @@ CM_ SG_ 792 TURN_SIGNALS "1=Left, 2=Right";
 CM_ SG_ 792 HIGH_BEAM_FLASH "use this for genericToggle";
 CM_ SG_ 264 ACCEL_PEDAL "not in ACC so seems to be actual pedal. Use for gasPressed";
 CM_ SG_ 3710987 GEAR_SHIFTER "p=6, r=4 n=3 d=5";
-CM_ SG_ 102277121 gas_pedal_position "255 = max";
+CM_ SG_ 102277121 CAR_GAS "255 = max";
 CM_ SG_ 203202560 DOOR_CLOSED "1 = closed";
 VAL_ 746 PRNDL 4 "Drive" 3 "Neutral" 2 "Reverse" 1 "Park" ;
 VAL_ 792 TURN_SIGNALS 2 "Right" 1 "Left" ;
