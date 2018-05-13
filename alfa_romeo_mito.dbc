@@ -110,9 +110,9 @@ BO_ 3710987 DSG: 8 XXX
  SG_ NEW_SIGNAL_7 : 59|4@1+ (1,0) [0|31] "" XXX
  SG_ NEW_SIGNAL_5 : 32|3@1+ (1,0) [0|7] "" XXX
  SG_ speed3 : 40|8@1+ (1,0) [0|31] "" XXX
- SG_ NEW_SIGNAL_3 : 16|3@1+ (1,0) [0|7] "" XXX
  SG_ GEAR_SHIFTER : 9|3@1+ (1,0) [0|7] "" XXX
  SG_ speed2 : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ GEAR : 16|3@1+ (1,0) [0|7] "" XXX
 
 BO_ 34643974 NEW_MSG_7: 8 XXX
  SG_ NEW_SIGNAL_1 : 43|5@1+ (1,0) [0|31] "" XXX
