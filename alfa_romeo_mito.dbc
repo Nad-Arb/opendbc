@@ -143,8 +143,8 @@ BO_ 152576001 NEW_MSG_12: 8 XXX
  SG_ NEW_SIGNAL_3 : 0|1@0+ (1,0) [0|1] "" XXX
  SG_ Brakepedal : 22|5@0+ (1,0) [0|7] "" XXX
 
-BO_ 1089542 Brake_pedal: 8 XXX
- SG_ brake_pressure : 16|8@1+ (1,0) [0|255] "" XXX
+BO_ 1089542 BRAKE_PEDAL: 8 XXX
+ SG_ BRAKE_PRESSED : 16|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 35168262 SPEED: 8 XXX
  SG_ NEW_SIGNAL_2 : 0|8@1+ (1,0) [0|3] "" XXX
